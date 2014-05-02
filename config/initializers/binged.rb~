@@ -1,0 +1,7 @@
+Binged.configure do |config|
+  	
+config.api_key = 'lQSKT7auC/6Pqk2Zmec6rm0FFrQH9EKJJtSk/TIkKw4'
+	
+end
+
+binged = Binged::Client.new

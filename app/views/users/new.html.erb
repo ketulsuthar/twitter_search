@@ -1,0 +1,15 @@
+<%= form_for :article do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_area :email %>
+  </p>
+ 
+  <p>
+    <%= f.submit "create" , :onclick => 'create' %>
+  </p>
+<% end %>

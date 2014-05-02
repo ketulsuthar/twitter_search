@@ -1,0 +1,25 @@
+<h1>Result of search</h1>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        
+	
+        <td><%= link_to 'ADD'%></td>
+
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
